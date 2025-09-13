@@ -27,7 +27,7 @@ body {
 }
 
 .header-container .logo a,
-.header-container nav ul li a {
+.header-container nav ul li a:link {
     text-decoration: none;
     color: #000000;
 }
