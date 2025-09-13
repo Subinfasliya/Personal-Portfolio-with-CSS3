@@ -27,17 +27,18 @@ body {
 }
 
 .header-container .logo a,
-.header-container nav ul li a:link {
+.header-container nav ul li a {
     text-decoration: none;
-    color: #3f3f3f;
+    color: #000000;
 }
 
+
 .header-container nav ul li a:visited {
-    color: #000;
+    color: #9f0303;
 }
 
 .header-container nav ul li a:hover {
-    color: #9f0303;
+    color: #d90505;
 }
 
 /* Hero section */
@@ -81,7 +82,7 @@ body {
 }
 
 .hero-container h1 {
-    font-size: 5.5rem;
+   font-size: 4.5rem;
 }
 
 .hero-container h2 {
@@ -155,7 +156,7 @@ footer {
 }
 
 .footer-text h1 a {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     color: black;
 }
 

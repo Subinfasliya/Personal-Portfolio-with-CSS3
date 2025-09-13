@@ -27,18 +27,20 @@ body {
 }
 
 .header-container .logo a,
-.header-container nav ul li a:link {
+.header-container nav ul li a {
     text-decoration: none;
-    color: #3f3f3f;
+    color: #000000;
 }
 
+
 .header-container nav ul li a:visited {
-    color: #000;
+    color: #9f0303;
 }
 
 .header-container nav ul li a:hover {
-    color: #9f0303;
+    color: #d90505;
 }
+
 
 /* Hero section */
 .hero-container {
@@ -57,7 +59,7 @@ body {
 
 /* Line with animation */
 .underline {
-    width:0;
+    width: 0;
     height: 3px;
     background-color: #9f0303;
     animation: expandLine 2s ease-out forwards;
@@ -84,5 +86,103 @@ body {
     width: 500px;
     border-radius: 50%;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.50);
-    object-fit:cover;
+    object-fit: cover;
+}
+
+/* About container section */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem 10rem;
+    margin-bottom:4rem;
+}
+
+.sub-title {
+    /* padding: 0 10rem; */
+    font-size: 2rem;
+    color: #9f0303;
+}
+
+.description p {
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.address .address-text {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.address div {
+    margin-top: 10px;
+}
+
+/* Footer section  */
+footer {
+    background-color: #fff;
+    padding: 2rem 10rem;
+}
+
+.footer-container {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text p {
+    font-size: 1.5rem;
+}
+
+.footer-text h1 a {
+    font-size: 4.5rem;
+    color: black;
+}
+
+.footer-text a:hover {
+    color: rgb(51, 111, 241);
+}
+
+.footer-links {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.social,
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social nav ul,
+.service nav ul {
+    list-style: none;
+}
+
+.social ul li,
+.service ul li {
+    margin-bottom: 4px;
+}
+
+.social a,
+.service a {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:hover,
+.service a:hover {
+    color: rgb(0, 98, 255);
+}
+
+.copyright {
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #929292;
 }

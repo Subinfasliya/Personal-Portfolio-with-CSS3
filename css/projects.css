@@ -27,18 +27,20 @@ body {
 }
 
 .header-container .logo a,
-.header-container nav ul li a:link {
+.header-container nav ul li a {
     text-decoration: none;
-    color: #3f3f3f;
+    color: #000000;
 }
 
+
 .header-container nav ul li a:visited {
-    color: #000;
+    color: #9f0303;
 }
 
 .header-container nav ul li a:hover {
-    color: #9f0303;
+    color: #d90505;
 }
+
 
 /* Hero section */
 
@@ -98,7 +100,7 @@ body {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 2rem 10rem;
     margin-bottom: 8rem;
@@ -170,7 +172,7 @@ footer {
 }
 
 .footer-text h1 a {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     color: black;
 }
 
